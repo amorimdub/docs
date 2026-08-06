@@ -1,37 +1,98 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "CompanyOS Help Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1f8c86",
+    "light": "#f8f5f2",
+    "dark": "#0f1b1a"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "tabs": [
+      {
+        "name": "Help Center",
+        "url": "/"
+      }
+    ],
+    "groups": [
       {
         "group": "Getting Started",
         "pages": [
-          "index",
-          "quickstart"
+          "getting-started",
+          "essentials"
+        ]
+      },
+      {
+        "group": "Knowledge",
+        "pages": [
+          "knowledge"
+        ]
+      },
+      {
+        "group": "AI Clients",
+        "pages": [
+          "ai-clients",
+          "how-to-connect-claude",
+          "how-to-connect-chatgpt-codex"
+        ]
+      },
+      {
+        "group": "Procedures",
+        "pages": [
+          "procedures",
+          "first-procedure"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
+          "integrations",
+          "managed-integrations"
+        ]
+      },
+      {
+        "group": "Routines",
+        "pages": [
+          "routines",
+          "how-to-schedule-a-claude-cowork-routine"
+        ]
+      },
+      {
+        "group": "Email",
+        "pages": [
+          "email",
+          "how-to-connect-microsoft-365"
+        ]
+      },
+      {
+        "group": "Automation",
+        "pages": [
+          "automation",
+          "record-store"
+        ]
+      },
+      {
+        "group": "Permissions",
+        "pages": [
+          "permissions"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "troubleshooting"
+        ]
+      },
+      {
+        "group": "Build with CompanyOS",
+        "pages": [
+          "build-with-companyos/index",
+          "build-with-companyos/openapi",
+          "build-with-companyos/error-catalog"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -40,33 +101,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "App",
+        "href": "https://app.companyos.cc"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/amorimdub/CompanyOS"
     }
   }
 }
