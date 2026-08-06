@@ -5,7 +5,7 @@ CompanyOS has two separate email surfaces:
 - Product lifecycle, approval, and Workspace-notification messages sent by CompanyOS.
 - Customer correspondence sent through a connected Member's Microsoft 365 organization.
 
-The Microsoft 365 sender path is implemented, but live Member, Shared Mailbox, and hosted scheduled-send acceptance is still pending GitHub issue #320 as of July 17, 2026. The states below describe the implemented contract; they are not a delivery or reliability claim.
+The Microsoft 365 sender path is implemented, but live Member, Shared Mailbox, and hosted scheduled-send acceptance has not yet been verified end to end as of July 17, 2026. The states below describe the implemented contract; they are not a delivery or reliability claim.
 
 ## Lifecycle messaging
 

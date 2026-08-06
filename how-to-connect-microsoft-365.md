@@ -6,7 +6,7 @@ Connecting Microsoft 365 lets an AI Client read your mail and calendar and, with
 
 Microsoft 365 is the worked example of a Nango-brokered Managed Integration. It is **Member-Scoped**: each Member connects their own organizational account, and credentials stay with that Member.
 
-> **Admin steps on this page are not live-verified.** The CompanyOS side of this flow is implemented and described from the shipped contract. The Microsoft 365 admin-consent and Exchange Online mailbox-authority steps have not been walked end to end against a live Microsoft 365 organization — that verification is tracked as [Verify live Member and Shared Mailbox sending end to end](https://github.com/amorimdub/CompanyOS/issues/320). Treat the Microsoft-side wording below as a guide to what your admin must grant, not as a tested click path.
+> **Admin steps on this page are not live-verified.** The CompanyOS side of this flow is implemented and described from the shipped contract. The Microsoft 365 admin-consent and Exchange Online mailbox-authority steps have not been walked end to end against a live Microsoft 365 organization — that verification is still outstanding. Treat the Microsoft-side wording below as a guide to what your admin must grant, not as a tested click path.
 
 ## Before you start
 
