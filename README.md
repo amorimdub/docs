@@ -1,55 +1,28 @@
-# Mintlify Starter Kit
+# CompanyOS Help Center
 
-Use the starter kit to get your docs deployed and ready to customize.
+Published at [docs.companyos.cc](https://docs.companyos.cc) by Mintlify, which deploys from this repository's default branch.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Do not edit these pages by hand
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+**This content is generated.** It is authored in the private `amorimdub/CompanyOS` repository under `docs-site/`, and copied here by `scripts/sync-docs-repo.ts`. An edit made directly in this repository will be overwritten by the next sync.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+To change a page, edit it in `CompanyOS/docs-site/docs/` and re-run the sync.
 
-## AI-assisted writing
+## Why the split
 
-Set up your AI coding tool to work with Mintlify:
+Two pages here are not written by anyone — `build-with-companyos/openapi.md` and `build-with-companyos/error-catalog.md` are generated from `docs/contracts/` inside the CompanyOS repository by `scripts/generate-docs-site.ts`. CompanyOS CI fails if they drift from the contracts they describe.
 
-```bash
-npx skills add https://mintlify.com/docs
-```
+That check only works where the contracts live, so authoring stays in CompanyOS and this repository holds the published output.
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+## Layout
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+Mintlify resolves navigation paths relative to `docs.json`, which sits at this repository's root — so pages sit at the root too. In CompanyOS they live one level deeper, under `docs-site/docs/`, beside `docs-site/docs.json`. The sync script flattens that.
 
-## Development
+## Checks that run before content reaches here
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+In the CompanyOS repository, `bun run docs:check`:
 
-```
-npm i -g mint
-```
-
-Run the following command at the root of your documentation, where your `docs.json` is located:
-
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+- verifies every `docs.json` navigation entry has a backing Markdown file;
+- fails on broken internal links;
+- fails on drift between the generated pages and their source contracts;
+- requires a parseable `**Last verified:**` date on every `how-to-*` page, and warns when one is more than 90 days old.

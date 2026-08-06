@@ -1,0 +1,43 @@
+# docs.companyos.cc
+
+User-first help center for CompanyOS.
+
+## Sections
+
+- Getting Started
+  - [Getting Started](https://docs.companyos.cc/getting-started)
+  - [Essentials](https://docs.companyos.cc/essentials)
+- Knowledge
+  - [Knowledge](https://docs.companyos.cc/knowledge)
+- AI Clients
+  - [AI Clients](https://docs.companyos.cc/ai-clients)
+  - [How to connect Claude](https://docs.companyos.cc/how-to-connect-claude)
+  - [How to connect ChatGPT or Codex](https://docs.companyos.cc/how-to-connect-chatgpt-codex)
+- Procedures
+  - [Procedures](https://docs.companyos.cc/procedures)
+  - [Your first Procedure](https://docs.companyos.cc/first-procedure)
+- Integrations
+  - [Integrations](https://docs.companyos.cc/integrations)
+  - [Managed Integrations](https://docs.companyos.cc/managed-integrations)
+- Routines
+  - [Routines](https://docs.companyos.cc/routines)
+  - [How to schedule a Claude Cowork routine](https://docs.companyos.cc/how-to-schedule-a-claude-cowork-routine)
+- Email
+  - [Email](https://docs.companyos.cc/email)
+  - [How to connect Microsoft 365](https://docs.companyos.cc/how-to-connect-microsoft-365)
+- Automation
+  - [Automation](https://docs.companyos.cc/automation)
+  - [Workspace Record Store](https://docs.companyos.cc/record-store)
+- Permissions
+  - [Permissions](https://docs.companyos.cc/permissions)
+- Troubleshooting
+  - [Troubleshooting](https://docs.companyos.cc/troubleshooting)
+- Build with CompanyOS
+  - [Build with CompanyOS](https://docs.companyos.cc/build-with-companyos/index)
+  - [OpenAPI reference](https://docs.companyos.cc/build-with-companyos/openapi)
+  - [AI-Actionable Error Catalog](https://docs.companyos.cc/build-with-companyos/error-catalog)
+
+## Generated references
+
+- [OpenAPI reference](https://docs.companyos.cc/build-with-companyos/openapi)
+- [AI-Actionable Error Catalog](https://docs.companyos.cc/build-with-companyos/error-catalog)
