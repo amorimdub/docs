@@ -51,5 +51,7 @@ Owners can use MCP tools that create draft Procedure Content and edit published 
 
 - [Essentials](/essentials)
 - [Knowledge](/knowledge)
+- [How search works](/how-search-works)
+- [Permissions](/permissions)
 - [Permissions](/permissions)
 - [Routines](/routines)

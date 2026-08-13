@@ -9,6 +9,7 @@ User-first help center for CompanyOS.
   - [Essentials](https://docs.companyos.cc/essentials)
 - Knowledge
   - [Knowledge](https://docs.companyos.cc/knowledge)
+  - [How search works](https://docs.companyos.cc/how-search-works)
 - AI Clients
   - [AI Clients](https://docs.companyos.cc/ai-clients)
   - [How to connect Claude](https://docs.companyos.cc/how-to-connect-claude)
