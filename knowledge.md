@@ -21,3 +21,7 @@ Folders group Company Files or Personal Files within a Workspace. They are a nav
 - List files and folders.
 
 AI Clients cannot write, delete, or publish source knowledge.
+
+## How search ranks files
+
+Search is not a single index. CompanyOS runs full-text, embeddings, titles, and Distilled Summaries in parallel, fuses those lists, then applies a configured rerank model. The AI Client writes the answer from the excerpts. See [How search works](/how-search-works).
