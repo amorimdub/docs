@@ -4,7 +4,8 @@ An AI Client is an external assistant or agent application that connects to Comp
 
 ## Connect one
 
-- [How to connect Claude](/how-to-connect-claude) — recommended primary path.
+- [mcp.md](/mcp) — how to set up an MCP Connection, and how it works.
+- [How to connect Claude](/how-to-connect-claude) — recommended click-by-click path.
 - [How to connect ChatGPT or Codex](/how-to-connect-chatgpt-codex) — supported alternative.
 
 Connecting **one** supported client is enough to activate a Workspace. See [Essentials](/essentials) for where connection sits in the activation sequence.

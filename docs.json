@@ -4,8 +4,26 @@
   "name": "CompanyOS Help Center",
   "colors": {
     "primary": "#1f8c86",
-    "light": "#f8f5f2",
-    "dark": "#0f1b1a"
+    "light": "#6fcabf",
+    "dark": "#1b6f6b"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "fonts": {
+    "heading": {
+      "family": "Hanken Grotesk",
+      "weight": 700,
+      "source": "/fonts/hanken-grotesk-700.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Hanken Grotesk",
+      "weight": 400,
+      "source": "/fonts/hanken-grotesk-400.woff2",
+      "format": "woff2"
+    }
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -34,6 +52,7 @@
         "group": "AI Clients",
         "pages": [
           "ai-clients",
+          "mcp",
           "how-to-connect-claude",
           "how-to-connect-chatgpt-codex"
         ]
