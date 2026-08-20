@@ -1,6 +1,6 @@
 # How to connect Microsoft 365
 
-**Last verified:** 2026-08-06
+**Last verified:** 2026-08-20
 
 Connecting Microsoft 365 lets an AI Client read your mail and calendar and, with explicit approval, send mail as you or as a Shared Mailbox. For what the sender contract guarantees, read [Email](/email). For how CompanyOS brokers connections generally, read [Managed Integrations](/managed-integrations).
 
@@ -16,12 +16,12 @@ Microsoft 365 is the worked example of a Nango-brokered Managed Integration. It 
 
 ## Part 1 — Connect your account
 
-1. In CompanyOS, open **Integrations**.
-2. Find Microsoft 365 and start connect.
+1. In CompanyOS, open **Mailbox**.
+2. Start connect for Microsoft 365.
 3. Sign in with your Microsoft 365 organizational account and accept the consent screen.
 
    CompanyOS requests `Mail.Read`, `Calendars.Read`, `Mail.Send`, and delegated `Mail.Send.Shared`.
-4. Confirm the Integration shows **connected** in CompanyOS.
+4. Confirm Mailbox shows **connected**.
 
 Your Microsoft 365 organization may require an admin to approve the requested scopes before an ordinary Member can complete consent. If the sign-in stops with a message about admin approval being required, send your admin the scope list from step 3.
 

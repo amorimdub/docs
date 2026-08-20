@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 24">
-  <text x="0" y="18" font-size="16" font-weight="600" fill="#f8f5f2">CompanyOS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 24" role="img" aria-label="CompanyOS">
+  <rect x="1" y="1" width="22" height="22" rx="7" fill="#1f8c86"/>
+  <circle cx="12" cy="12" r="6" fill="none" stroke="#f6f4ee" stroke-width="1.5"/>
+  <circle cx="12" cy="12" r="2" fill="#f6f4ee"/>
+  <text x="31" y="18" font-family="Hanken Grotesk, Arial, sans-serif" font-size="16" font-weight="700" fill="#f2efe9">CompanyOS</text>
 </svg>
