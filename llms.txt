@@ -12,7 +12,7 @@ User-first help center for CompanyOS.
   - [How search works](https://docs.companyos.cc/how-search-works)
 - AI Clients
   - [AI Clients](https://docs.companyos.cc/ai-clients)
-  - [mcp.md](https://docs.companyos.cc/mcp)
+  - [How to set up CompanyOS](https://docs.companyos.cc/how-to-setup)
   - [How to connect Claude](https://docs.companyos.cc/how-to-connect-claude)
   - [How to connect ChatGPT or Codex](https://docs.companyos.cc/how-to-connect-chatgpt-codex)
 - Procedures

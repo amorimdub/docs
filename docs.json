@@ -52,7 +52,7 @@
         "group": "AI Clients",
         "pages": [
           "ai-clients",
-          "mcp",
+          "how-to-setup",
           "how-to-connect-claude",
           "how-to-connect-chatgpt-codex"
         ]
