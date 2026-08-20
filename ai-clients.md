@@ -4,7 +4,7 @@ An AI Client is an external assistant or agent application that connects to Comp
 
 ## Connect one
 
-- [mcp.md](/mcp) — how to set up an MCP Connection, and how it works.
+- [How to set up CompanyOS](/how-to-setup) — copy the connection link and follow the client steps.
 - [How to connect Claude](/how-to-connect-claude) — recommended click-by-click path.
 - [How to connect ChatGPT or Codex](/how-to-connect-chatgpt-codex) — supported alternative.
 
